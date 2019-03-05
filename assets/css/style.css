@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.background{
+    widows: 100%;
+    height: 100%;
+    background-image: url(../images/a2d83efab35a651081c14f1ade05acdc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto
+}
+
+.nav{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Verdana;
+    font-weight: bold;
+    height: 90px;
+    margin: 5px 0;
+    float: left;
+    background-color: black;
+    color: white;
+    line-height: 90px;
+    text-align: center;
+    transition: 300ms;
+}
+
+
+a.active, .nav a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.a{
+    width: 95%
+}
+
+.b{
+    width: 80%
+}
+
+.c{
+    width: 75%
+}
+
+.d{
+    width: 90%
+}
+
+.content{
+    position: absolute;
+    width: 900px;
+    min-height: 600px;
+    height: auto;
+    right: 10px;
+    top: 10%;
+}
+
+.home{
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    color: white;
+    font-family: Verdana;
+    text-transform: uppercase;
+}
+
+.home h1{
+    font-size: 95px;
+    padding-right: 90px;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    }
+
+.home h3{
+    font-size: 28px;
+    padding: 5px 0;
+    opacity: 0.6;
+} 
+
+.aboutMe{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: white;
+    font-family: century gothic;
+    padding: 0 60px;
+}
+
+.aboutMe p{
+    font-size: 21px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.porfolio{
+    visibility: hidden;
+    /* position: absolute;
+    right: 0;
+    top: 10px;
+    color: white;
+    padding: 0 60px; */
+}
+
+.porfolio .image{
+    width: 25%;
+    margin-bottom: 2%;
+    float: left;
+}
+
+/* .image img{
+    width: 100%;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+.image img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+} */
+
+.contactMe{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: white;
+    padding: 0 60px;
+    display: none;
+}
+
+.inputtext{
+    width: 55%;
+    height: 65px;
+    border: 3px solid black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    padding: 0 10px;
+    float: left;
+    margin-bottom: 15px;
+
+}
+
+.inputmessage{
+    width: 55%;
+    height: 135px;
+    border: 3px solid black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    padding: 0 10px;
+    float: left;
+
+    
+}
+
+.submitbutton{
+    width: 160px;
+    height: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 28px;
+    border: none;
+    font-weight: bold;
+    float: left;
+    clear: both;
+    margin-top: 25px;
+    
+}
